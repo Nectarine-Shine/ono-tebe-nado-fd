@@ -7,7 +7,7 @@
   height: 293px;
 }
 
-.header__links-list{
+.header__links-list {
   display: flex;
   gap: 32px;
   list-style: circle;
@@ -33,7 +33,7 @@
 }
 
 .header__logo {
-  display: block; 
+  display: block;
   width: 148px;
   height: 105px;
 }
@@ -50,7 +50,7 @@
   height: 757px;
   margin-bottom: 180px;
   text-transform: uppercase;
-  color:white;
+  color: white;
 }
 
 .overlay {
@@ -99,17 +99,17 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color:white;
+  color: white;
   font-size: 22px;
 }
 
-.cover__description-text { 
-  word-spacing: 19px;  /*Посчитать расстояние.*/
+.cover__description-text {
+  word-spacing: 19px; /*Посчитать расстояние.*/
 }
 
 .bet-button {
   width: 256px;
-  height: 50px; 
+  height: 50px;
   border: 1px solid white;
   background-color: transparent;
   text-transform: uppercase;
@@ -123,14 +123,14 @@
 .lots__heading {
   text-transform: uppercase;
   font-size: 40px;
-  margin-left: 40px;;
+  margin-left: 40px;
 }
 
 .lots__card-list {
   list-style: none;
   display: flex;
   gap: 25px;
-  flex-wrap: wrap;   
+  flex-wrap: wrap;
   margin: 27px 0px 30px;
   text-decoration: none;
   color: white;
@@ -153,10 +153,10 @@
 .lots__wrapper {
   position: absolute;
   padding: 48px 40px;
-  height:100%;     /* Вопросики, правильно ли тут все? */
+  height: 100%; /* Вопросики, правильно ли тут все? */
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
 .card_type_film {
